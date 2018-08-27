@@ -7,11 +7,25 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.j
 x-kinRank: "10"
 x-alexaRank: "333433"
 tags: Client
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/client/master/_listings/3scale/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Charcoal API - Password Login (System Clients Only)
+  x-api-slug: hostnameauth-post
+  description: Once a user has authorized a client to communicate on their behalf
+    (via the `auth/authorize` endpoint), the client can use the generated token in
+    their `x-client-bearer-token` header to retreive the user's information from this
+    endpoint.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
+  humanURL: http://3scale.net
+  baseURL: https://http://
+  tags: Management, Management, My API Stack, Imports, Stack Network, SaaS, Technology,
+    Enterprise, API Service Provider, Profiles, Portals
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/client/master/_listings/3scale/hostnameauth-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://3scale.api.gallery.streamdata.io

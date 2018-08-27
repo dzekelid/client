@@ -28,11 +28,71 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Client
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/client/master/_listings/aws-cloudhsm/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS CloudHSM API - Create Luna Client
+  x-api-slug: actioncreatelunaclient-get
+  description: Creates an HSM client.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSCloudHSM.png
+  humanURL: https://aws.amazon.com/cloudhsm/
+  baseURL: :///
+  tags: Amazon Web Services, Contracts, Regulations, Management, Encryption, Stack
+    Network, API Service Provider, API Service Provider, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/client/master/_listings/aws-cloudhsm/actioncreatelunaclient-get-openapi.md
+- name: AWS CloudHSM API - Delete Luna Client
+  x-api-slug: actiondeletelunaclient-get
+  description: Deletes a client.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSCloudHSM.png
+  humanURL: https://aws.amazon.com/cloudhsm/
+  baseURL: :///
+  tags: Amazon Web Services, Contracts, Regulations, Management, Encryption, Stack
+    Network, API Service Provider, API Service Provider, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/client/master/_listings/aws-cloudhsm/actiondeletelunaclient-get-openapi.md
+- name: AWS CloudHSM API - Describe Luna Client
+  x-api-slug: actiondescribelunaclient-get
+  description: Retrieves information about an HSM client.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSCloudHSM.png
+  humanURL: https://aws.amazon.com/cloudhsm/
+  baseURL: :///
+  tags: Amazon Web Services, Contracts, Regulations, Management, Encryption, Stack
+    Network, API Service Provider, API Service Provider, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/client/master/_listings/aws-cloudhsm/actiondescribelunaclient-get-openapi.md
+- name: AWS CloudHSM API - List Luna Clients
+  x-api-slug: actionlistlunaclients-get
+  description: Lists all of the clients.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSCloudHSM.png
+  humanURL: https://aws.amazon.com/cloudhsm/
+  baseURL: :///
+  tags: Amazon Web Services, Contracts, Regulations, Management, Encryption, Stack
+    Network, API Service Provider, API Service Provider, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/client/master/_listings/aws-cloudhsm/actionlistlunaclients-get-openapi.md
+- name: AWS CloudHSM API - Modify Luna Client
+  x-api-slug: actionmodifylunaclient-get
+  description: Modifies the certificate used by the client.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSCloudHSM.png
+  humanURL: https://aws.amazon.com/cloudhsm/
+  baseURL: :///
+  tags: Amazon Web Services, Contracts, Regulations, Management, Encryption, Stack
+    Network, API Service Provider, API Service Provider, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/client/master/_listings/aws-cloudhsm/actionmodifylunaclient-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.cloudfront.api.gallery.streamdata.io
